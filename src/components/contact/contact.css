@@ -1,0 +1,164 @@
+.contact__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    padding-bottom: 3rem;
+}
+
+.contact__title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.contact__info {
+    display: grid;
+    gap: 2rem;
+}
+
+.contact__card {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.contact__card:hover {
+    transform: translateY(-5px);
+}
+
+.contact__card-icon {
+    font-size: 2.5rem;
+    color: #3498db; /* Default color (blue) */
+    margin-bottom: 0.5rem;
+}
+
+.contact__card-icon.whatsapp {
+    color: #25D366; /* WhatsApp Green */
+}
+
+.contact__card-icon.discord {
+    color: #7289DA; /* Discord Purple */
+}
+
+.contact__card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.contact__card-data {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.contact__button {
+    color: #5e34db; /* Default color */
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.contact__button:hover {
+    color: #2957b9;
+}
+
+.contact__button.whatsapp {
+    color: #25D366; /* WhatsApp Green */
+}
+
+.contact__button.discord {
+    color: #7289DA; /* Discord Purple */
+}
+
+.contact__button.liked {
+    color: #007bff; /* Liked Blue */
+}
+
+.contact__button:hover.whatsapp {
+    color: #128C7E; /* Darker WhatsApp Green */
+}
+
+.contact__button:hover.discord {
+    color: #5a6eae; /* Lighter Discord Purple */
+}
+
+.contact__button:hover.liked {
+    color: #0056b3; /* Darker Liked Blue */
+}
+
+.contact__form {
+    max-width: 400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.contact__form-div {
+    margin-bottom: 1.5rem;
+}
+
+.contact__form-input {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 1rem;
+    background-color: #f9f9f9;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.contact__form-input:focus {
+    border-color: #3498db;
+}
+
+.contact__form-tag {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 0.5rem;
+}
+
+.contact__form-area textarea {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 1rem;
+    background-color: #f9f9f9;
+    resize: none;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.contact__form-area textarea:focus {
+    border-color: #3498db;
+}
+
+.button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+.button--flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
