@@ -1,0 +1,76 @@
+.home__social {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.group {
+    position: relative;
+}
+
+.home_github-icon,
+.home__likedin-icon,
+.home__discord-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.home_github-icon {
+    background: black;
+}
+
+.home_github-icon:hover {
+    background: #333;
+    transform: scale(1.1);
+}
+
+
+.home__likedin-icon {
+    background: #0077b5;
+}
+
+.home__likedin-icon:hover {
+    background: #005582;
+    transform: scale(1.1);
+}
+
+
+.home__discord-icon {
+    background: #5865f2;
+}
+
+.home__discord-icon:hover {
+    background: #404eed;
+    transform: scale(1.1);
+}
+
+
+.tooltip-content {
+    position: absolute;
+    left: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+.group:hover .tooltip-content {
+    opacity: 1;
+}
