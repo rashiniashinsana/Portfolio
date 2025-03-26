@@ -28,7 +28,7 @@ const Header = () => {
 
                 <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                     <ul className="nav__list">
-                        {['home', 'about', 'technologies', 'projects' ,'contact'].map((section) => (
+                        {[ 'about' ,'education', 'technologies', 'projects' ,'contact'].map((section) => (
                             <li className="nav__item" key={section}>
                                 <a
                                     href={`#${section}`}
