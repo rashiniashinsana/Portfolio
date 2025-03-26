@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import hoverSoundFile from "../../assets/effects/pop-sound-effect-226108.mp3";
+import hoverSoundFile from "../../assets/effects/multi-pop-.mp3";
 import "./social.css";
 
 const Social = () => {
