@@ -8,7 +8,7 @@ import Contact from "./components/contact/ContactPage.tsx";
 import About from "./components/about/AboutPage.tsx";
 import Projects from "./components/projects/Projects.tsx";
 import TechnologiesPage from "./components/technologies/TechnologiesPage.tsx";
-// import AnimeBackground from "./components/animationCursor/AnimeBackground.tsx";
+import QualificationPage from "./components/qualifications/QualificationsPage.tsx";
 
 const App = () => {
 
@@ -20,7 +20,7 @@ const App = () => {
                 {/*<AnimeBackground/>*/}
                 <HomePage/>
                 <About/>
-                {/*<QualificationPage/>*/}
+                <QualificationPage/>
                 <TechnologiesPage/>
                 <Projects/>
                 <Contact/>
