@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import "./header.css";
 
 const Header = () => {
@@ -43,7 +43,15 @@ const Header = () => {
                 </div>
 
                 <div className="nav__right">
-                    <a href="#cv" className="btn-primary">Download CV</a>
+                    <div className="btn-group">
+                        <a
+                            href="../../assets/Rashini%20Ashinsana%20-%20CV.pdf"
+                            download="RashiniAshinsana_CV.pdf"
+                            className="btn btn-primary"
+                        >
+                            Download CV
+                        </a>
+                    </div>
                     <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
                         <i className="uil uil-apps"></i>
                     </div>

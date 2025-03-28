@@ -1,7 +1,7 @@
 import Adopet from "../../assets/adopet.png"
-import BookBell from "../../assets/bookbell.png"
+import BookBellApp from "../../assets/BookBellApp.png"
 import StockMateWeb from "../../assets/WebStockMate.png"
-import StockMateMobile from "../../assets/StockMateApp.png"
+import StockMateApp from "../../assets/StockMateApp.png"
 import CropMonitoringReact from "../../assets/CropMonitoringReact.png"
 import HotelIndigo from "../../assets/HotelIndigo.png"
 import DogCareWebsite from "../../assets/DogCareWebsite.png"
@@ -32,7 +32,7 @@ export const projectsData = [
     },
     {
         id: 4,
-        image: BookBell,
+        image: BookBellApp,
         title: 'Book Bell - Mobile Application ',
         category: 'mobile app',
         link: 'https://github.com/rashiniashinsana/book-store-frontend',
@@ -46,7 +46,7 @@ export const projectsData = [
     },
     {
         id: 6,
-        image: StockMateMobile,
+        image: StockMateApp,
         title: 'StockMateMobile - StockMate Mobile Application',
         category: 'mobile app',
         link: 'https://github.com/rashiniashinsana/StockMate-Mobile-Application',

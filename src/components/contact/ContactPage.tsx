@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import "./contact.css";
 
@@ -171,8 +171,6 @@ const Contact = () => {
                                 name="project"
                                 value={formData.project}
                                 onChange={handleChange}
-                                cols="30"
-                                rows="10"
                                 className="contact__form-input"
                                 placeholder="Write your description"
                                 required

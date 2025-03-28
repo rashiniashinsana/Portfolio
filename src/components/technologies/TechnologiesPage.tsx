@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaGitAlt, FaFigma, FaNodeJs, FaJava, FaPython } from "react-icons/fa";
-import { SiTypescript, SiTailwindcss, SiJquery, SiSpringboot, SiFirebase, SiMongodb, SiMysql, SiHibernate, SiExpress } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, FaFigma, FaNodeJs, FaJava, FaPython } from "react-icons/fa";
+import { SiTypescript, SiTailwindcss, SiJquery, SiSpringboot,  SiMongodb, SiMysql, SiHibernate, SiExpress } from "react-icons/si";
 import "./technologies.css";
 
 const technologies = {
