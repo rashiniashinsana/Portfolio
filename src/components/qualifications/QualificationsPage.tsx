@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import "./qualification.css";
 
-const Qualification = () => {
+const QualificationPage = () => {
     const [toggleState, setToggleState] = useState(1);
 
     const toggleTab = (index:number) => {
@@ -106,4 +106,4 @@ const Qualification = () => {
     );
 };
 
-export default Qualification;
+export default QualificationPage;

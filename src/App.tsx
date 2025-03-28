@@ -2,7 +2,7 @@ import "./App.css";
 import Header from './components/header/Header';
 import AnimatedCursor from "react-animated-cursor";
 import HomePage from "./components/home/HomePage.tsx";
-import Qualification from "./components/qualifications/QualificationsPage.tsx";
+import QualificationPage from "./components/qualifications/QualificationsPage.tsx";
 import Footer from "./components/footer/Footer.tsx";
 import Contact from "./components/contact/ContactPage.tsx";
 import About from "./components/about/AboutPage.tsx";
@@ -20,7 +20,7 @@ const App = () => {
                 {/*<AnimeBackground/>*/}
                 <HomePage/>
                 <About/>
-                <Qualification/>
+                <QualificationPage/>
                 <TechnologiesPage/>
                 <Projects/>
                 <Contact/>
